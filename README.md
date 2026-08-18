@@ -4,19 +4,19 @@ A 7-degree-of-freedom robotic arm built with a friend, combining mechanical
 design/fabrication with custom electronics and closed-loop control.
 
 ## Status
-🚧 In progress — currently syncing servo control to potentiometer feedback
+In progress: currently syncing servo control to potentiometer feedback
 via multiplexer.
 
 ## Overview
 This project is split by discipline:
-- **Mechanical design & fabrication (CAD, 3D printing):** [Friend's name]
-- **Electronics & control systems (coding, soldering):** [Your name]
+- **Mechanical design & fabrication (CAD, 3D printing):** [Thenuk]
+- **Electronics & control systems (coding, soldering):** [Nathaniel]
 
 ## Specs
 - Actuators: 7x servo motors, 1x stepper motor
 - Feedback: potentiometer per joint, read via multiplexer
-- Controller: Arduino [model]
-- Driver hardware: [fill in]
+- Controller: Arduino Uno R3
+- Driver hardware: PCA9685 16-channel servo driver, A4988 Stepper driver
 
 ## Repo Structure
 - `/code` — Arduino firmware
