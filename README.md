@@ -1,35 +1,107 @@
 # 7-DOF Robotic Arm
 
-A 7-degree-of-freedom robotic arm built with a friend, combining mechanical
-design/fabrication with custom electronics and closed-loop control.
+Short 2–3 sentence description
 
-## Status
-In progress: currently syncing servo control to potentiometer feedback
-via multiplexer.
+[Hero image of the robot]
 
-## Overview
-This project is split by discipline:
-- **Mechanical design & fabrication (CAD, 3D printing):** [Thenuk]
-- **Electronics & control systems (coding, soldering):** [Nathaniel]
+## Project Overview
+What the robot is and what you're trying to accomplish.
 
-## Specs
-- Actuators: 7x servo motors, 1x stepper motor
-- Feedback: potentiometer per joint, read via multiplexer
-- Controller: Arduino Uno R3
-- Driver hardware: PCA9685 16-channel servo driver, A4988 Stepper driver
+## Goals & Requirements
+- 7 degrees of freedom
+- Payload: X kg
+- Reach: X mm
+- Repeatability: X mm
+- Workspace: ...
+- Control method: ...
 
-## Repo Structure
-- `/code` — Arduino firmware
-- `/cad` — mechanical design files and exports
-- `/electronics` — wiring diagrams and notes
-- `/docs` — build log and progress media
+*System Architecture*
 
-## Build Log
-See [docs/build-log.md](docs/build-log.md) for detailed progress notes
-and challenges encountered along the way.
+### Mechanical
+- Link design
+- Joint design
+- Bearings
+- Actuators
+- Gearboxes
 
-## Next Steps
-- [ ] Finish mux/servo driver/perfboard soldering
-- [ ] Sync all 7 servos to potentiometer feedback
-- [ ] Integrate stepper motor for base rotation
-- [ ] (Add more as the project evolves — e.g. inverse kinematics, wireless control)
+### Electrical
+- Motors
+- Motor drivers
+- Power system
+- Controllers
+- Sensors
+
+### Software
+- Low-level control
+- Kinematics
+- Trajectory planning
+- Higher-level control
+
+*Mechanical Design*
+
+### Joint Design
+Explain the design of each joint and why you chose it.
+
+### Link Design
+Explain materials, geometry, manufacturing, etc.
+
+*Engineering Analysis*
+
+### Motor Sizing
+Calculations and assumptions.
+
+### Structural Analysis
+FEA / hand calculations.
+
+### Gear Ratio Selection
+Why you selected the ratios.
+
+### Thermal Analysis
+If applicable.
+
+## Kinematics
+
+Forward kinematics  
+Inverse kinematics  
+Workspace analysis
+
+## Prototyping & Manufacturing
+
+Photos and notes from each iteration.
+
+## Testing
+
+| Test | Target | Result | Status |
+|---|---:|---:|---|
+| Payload | X kg | X kg | ✓ |
+| Joint torque | X Nm | X Nm | ✓ |
+| Repeatability | X mm | X mm | — |
+
+## Design Iterations
+
+### V1
+What you designed and what happened.
+
+### V2
+What changed and why.
+
+### V3
+...
+
+## Current Status
+
+What works right now and what remains.
+
+## Lessons Learned
+
+What you've discovered during the project.
+
+## Future Work
+
+What you plan to improve next.
+
+## Media
+
+Photos / videos / CAD renders.
+
+## License
